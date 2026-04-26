@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    int i,ln;
+    char str[101];
+    gets(str);
+    ln=strlen(str);
+    for(i=ln-2; i>=0; i--)
+    {
+        if(str[i]=='a'||str[i]=='e'||str[i]=='i'||str[i]=='o'||str[i]=='u'||str[i]=='y'||str[i]=='A'||str[i]=='E'||str[i]=='I'||str[i]=='O'||str[i]=='U'||str[i]=='Y')
+        {
+            printf("YES\n");
+            break;
+        }
+        else if(str[i]==' ')continue;
+        else
+        {
+            printf("NO\n");
+            break;
+        }
+    }
+    return 0;
+}

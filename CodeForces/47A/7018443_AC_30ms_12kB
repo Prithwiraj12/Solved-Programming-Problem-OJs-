@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+	int a,c=0,i;
+	scanf("%d",&a);
+	for(i=1;;i++){
+		c=c+i;
+		if(c==a){printf("YES\n");
+		break;}
+		if(c>a){
+				printf("NO\n");
+				break;
+	}
+}
+return 0;
+}

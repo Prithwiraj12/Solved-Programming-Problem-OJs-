@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+	int a,ln,b,c=0,i,j;
+	char str[101];
+	gets(str);
+	ln=strlen(str);
+	for(i=0;i<ln;i++){
+			c++;
+		for(j=i+1;j<ln;j++){
+
+			if(str[i]==str[j]){
+			c=c-1;
+			break;}
+		}}
+	if(c%2==0)printf("CHAT WITH HER!");
+		else printf("IGNORE HIM!");
+	return 0;}
+
