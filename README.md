@@ -23,12 +23,6 @@ The solutions implementation focuses on:
 - **Algorithms:** Dynamic Programming (DP), Greedy, Breadth-First Search (BFS), Depth-First Search (DFS), Backtracking, and Two Pointers.
 - **Complexity:** Focus on optimal time and space complexity suitable for competitive environments.
 
-## 📂 Structure
-
-The repository is organized by platform or topic:
-- `/Codeforces`: Solutions to various division contests and problem sets.
-- `/LeetCode`: Categorized by difficulty (Easy, Medium, Hard) or specific tags.
-- `/Algorithms`: Implementations of standard templates used in contests.
 
 ## 📝 About Me
 
